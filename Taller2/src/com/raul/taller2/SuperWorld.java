@@ -4,7 +4,7 @@ import java.util.Collections;
 
 public class SuperWorld {
 	private String word;
-	private String word2;
+
 	public SuperWorld(String word)
 	{
 		this.word = word;
