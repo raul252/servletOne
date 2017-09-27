@@ -23,8 +23,7 @@ public class ServletTwo extends HttpServlet {
         super();
         // TODO Auto-generated constructor stub
     }
-
-	/**
+    /**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -36,7 +35,7 @@ public class ServletTwo extends HttpServlet {
 		float altura = Float.valueOf(saltura);
 		float imc = peso/altura/altura;
 		writer.append("<html>");
-		writer.append("<title>Ejemplo de página web");
+		writer.append("<title>IMC");
 		writer.append("</title>");
 		writer.append("<body>");
 		writer.append("<h3>El IMC de " + peso + " y " + altura + " es " + imc +"</h3>");
