@@ -14,7 +14,7 @@
     <servlet-name>ServletOne</servlet-name>
     <url-pattern>/servlet/servletOne</url-pattern>
   </servlet-mapping>
-    <servlet-mapping>
+  <servlet-mapping>
     <servlet-name>ServletTwo</servlet-name>
     <url-pattern>/servlet/servletTwo</url-pattern>
   </servlet-mapping>
