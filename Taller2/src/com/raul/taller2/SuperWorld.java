@@ -44,7 +44,7 @@ public class SuperWorld {
 	    	case 'e':
 	    		if (numbere == 0) {
 	    			numbere++;
-		    		e = new Vocal(vocal, numbera);
+		    		e = new Vocal(vocal, numbere);
 		    		datavocal.add(e);
 	    		}
 	    		else
@@ -56,7 +56,7 @@ public class SuperWorld {
 	    	case 'i':
 	    		if (numberi == 0) {
 	    			numberi++;
-		    		i = new Vocal(vocal, numbera);
+		    		i = new Vocal(vocal, numberi);
 		    		datavocal.add(i);
 	    		}
 	    		else
@@ -68,7 +68,7 @@ public class SuperWorld {
 	    	case 'o':
 	    		if (numbero == 0) {
 	    			numbero++;
-		    		o = new Vocal(vocal, numbera);
+		    		o = new Vocal(vocal, numbero);
 		    		datavocal.add(o);
 	    		}
 	    		else
@@ -80,7 +80,7 @@ public class SuperWorld {
 	    	case 'u':
 	    		if (numberu == 0) {
 	    			numberu++;
-		    		u = new Vocal(vocal, numbera);
+		    		u = new Vocal(vocal, numberu);
 		    		datavocal.add(u);
 	    		}
 	    		else
